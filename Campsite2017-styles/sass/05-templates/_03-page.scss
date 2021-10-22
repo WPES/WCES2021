@@ -1,0 +1,16 @@
+/*_______ Page template _______*/
+.page-template-default .entry-header,
+.page-template .entry-header,
+.search-results .page-header{
+	padding: 7rem 2rem;
+	background-color: $color__tertiary;
+	margin-bottom: 4rem;
+	.entry-title,
+	.page-title{
+		text-align: center;
+		margin: 0;
+	}
+	.entry-image{
+		display: none;
+	}
+}

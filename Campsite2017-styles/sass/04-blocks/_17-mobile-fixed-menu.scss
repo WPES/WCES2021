@@ -1,0 +1,80 @@
+/*_______ Bottom nav for mobile _______*/
+#footer-widget-5{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0;
+	z-index: 100;
+	@media (min-width: 480px) {
+		display: none;
+	}
+	.widget {
+		margin: 0;
+		width: 100%;
+	}
+	.mobile-fixed-menu {
+		list-style-type: none;
+		display: flex;
+		justify-content: space-between;
+		margin: 0;
+		padding: 0;
+		/*_______ Fix for the safe are on iPhoneX and similar _______*/
+		padding-bottom: env(safe-area-inset-bottom);
+		background-color: $color__tertiary;
+		.menu-item{
+			margin: 0;
+			width: 100%;
+			border-right: 1px solid $color__tertiary;
+			a {
+				display: inline-block;
+				width: 100%;
+				font-family: $font__main;
+				font-weight: 800;
+				font-size: .75rem;
+				line-height: 100%;
+				text-align: center;
+				color: $color__tertiary;
+				padding: .5rem 1rem;
+				background-color: $color__secondary;
+				box-shadow: 0 0 10px rgba(100,100,100, .3);
+				&:before{
+					display: block;
+					font-family: 'dashicons';
+					font-weight: normal;
+					font-size: 1rem;
+					margin-bottom: .5rem;
+				}
+				&:focus,
+				&:hover{
+					color: $color__secondary;
+					background-color: $color__tertiary;
+				}
+			}
+			&:last-of-type{
+				border-right: 0;
+			}
+			&.schedule{
+				a{
+					&:before{
+						content: "\f489";
+					}
+				}
+			}
+			&.sala{
+				a{
+					&:before{
+						content: "\f236";
+					}
+				}
+			}
+			&.tickets{
+				a{
+					&:before{
+						content: "\f486";
+					}
+				}
+			}
+		}
+	}
+}
