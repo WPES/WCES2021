@@ -81,11 +81,11 @@
 					margin-bottom: 1.25rem;
 				}
 				a{
-					color: $color__tertiary;
+					color: $color__grey_minimus;
 					text-decoration: underline;
 					@extend %transition;
 					&:hover{
-						color: $color__secondary;
+						color: $white;
 					}
 				}
 				.sub-menu{

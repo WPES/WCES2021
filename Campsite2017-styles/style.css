@@ -1944,7 +1944,7 @@ body.admin-bar .site-header {
     text-decoration: none;
     color: #01F395;
     padding: 0;
-    background-color: #414141;
+    background-color: #262626;
 }
 @media (min-width: 900px) {
     .more-info {
@@ -1985,7 +1985,7 @@ body.admin-bar .site-header {
     outline: 0.125rem solid #01F395;
 }
 .more-info:hover {
-    background-color: #262626;
+    background-color: #ffffff;
 }
 
 /*_______ Mobile navigation _______*/
@@ -2155,7 +2155,7 @@ body.admin-bar .site-header {
 }
 .custom-posts-pagination .page-numbers.current {
     color: #01F395;
-    background-color: #f9f9f9;
+    background-color: #efefef;
 }
 .custom-posts-pagination .page-numbers:not(.current):hover {
     color: #01F395;
@@ -2306,11 +2306,11 @@ body.admin-bar .site-header {
     }
 }
 .footer-widgets-block:not(:first-child) .widget_nav_menu .menu .menu-item a {
-    color: #01F395;
+    color: #efefef;
     text-decoration: underline;
 }
 .footer-widgets-block:not(:first-child) .widget_nav_menu .menu .menu-item a:hover {
-    color: #262626;
+    color: #ffffff;
 }
 .footer-widgets-block:not(:first-child) .widget_nav_menu .menu .menu-item .sub-menu {
     list-style: none;
@@ -3874,7 +3874,7 @@ h6 + .notation {
             transform: scale(1.1);
     -webkit-transform-origin: center;
             transform-origin: center;
-    background-color: #f9f9f9;
+    background-color: #efefef;
     -webkit-box-shadow: 0 0 0 #01F395;
             box-shadow: 0 0 0 #01F395;
     z-index: 5;
