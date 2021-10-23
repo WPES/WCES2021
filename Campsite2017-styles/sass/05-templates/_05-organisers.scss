@@ -26,14 +26,14 @@
 	.wordcamp-post-list__post{
 		width: 100%;
 		margin-bottom: 1rem;
-		background-color: white;
-		border: .125rem solid $color__primary;
+		background-color: $color__grey_minimus;
+		// border: .125rem solid $color__primary;
 		box-shadow: .5rem .5rem 0 $color__tertiary;
 		@extend %transition;
 		&:hover{
-			transform: scale(1.1);
+			// transform: scale(1.1); 
 			transform-origin: center;
-			background-color: $color__grey_minimus;
+			background-color: $white;
 			box-shadow: 0 0 0 $color__tertiary;
 			z-index: 10;
 			.wordcamp-image__avatar-container{
