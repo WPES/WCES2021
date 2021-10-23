@@ -742,7 +742,7 @@ figure > * {
 
 /*_______ General _______*/
 body {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-size: 1.25rem;
     line-height: 1.5;
@@ -755,7 +755,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 28px;
     font-size: 1.75rem;
     line-height: 100%;
@@ -782,7 +782,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 28px;
     font-size: 1.75rem;
     line-height: 100%;
@@ -797,7 +797,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     font-size: 1.5rem;
     line-height: 100%;
@@ -812,7 +812,7 @@ h3 {
 }
 
 h4 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 22px;
     font-size: 1.375rem;
     line-height: 100%;
@@ -827,7 +827,7 @@ h4 {
 }
 
 h5 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-size: 1.25rem;
     line-height: 100%;
@@ -1721,7 +1721,7 @@ body.admin-bar .site-header {
 }
 .main-navigation .menu .menu-item a {
     display: block;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 100%;
@@ -2767,7 +2767,7 @@ body.admin-bar .site-header {
     margin-bottom: 2rem;
 }
 .wp-block-buttons .wp-block-button .wp-block-button__link {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 100%;
@@ -3306,7 +3306,7 @@ table thead th {
 }
 .wp-block-latest-posts.is-grid a {
     display: block;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 2rem;
     line-height: 100%;
     text-decoration: none;
@@ -3693,7 +3693,7 @@ h6 + .notation {
     background-color: #262626;
 }
 .home-header .wp-block-image figcaption {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 100%;
@@ -3821,7 +3821,7 @@ h6 + .notation {
 #footer-widget-5 .mobile-fixed-menu .menu-item a {
     display: inline-block;
     width: 100%;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 800;
     font-size: 0.75rem;
     line-height: 100%;
@@ -4768,7 +4768,7 @@ h6 + .notation {
 }
 .wordcamp-speakers__sessions .wordcamp-speakers__session-link {
     display: block;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 1.25rem;
     line-height: 110%;
@@ -4811,7 +4811,7 @@ h6 + .notation {
 }
 .wordcamp-sessions .wordcamp-sessions__time-location {
     display: block;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 1rem;
     font-weight: 700;
@@ -4821,7 +4821,7 @@ h6 + .notation {
 }
 .wordcamp-sessions .wordcamp-sessions__category {
     display: table;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 0.875rem;
     line-height: 100%;
@@ -5020,14 +5020,14 @@ h6 + .notation {
 }
 .tix-js:not(.tix-has-dynamic-receipts) #tix-coupon-container input[type=submit] {
     max-width: 12rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.125rem;
     padding: 0.675rem;
 }
 
 #tix input[type=submit] {
     float: none !important;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     color: #01F395;
     background-color: #262626;
 }
@@ -5698,7 +5698,7 @@ div[class^=wcorg-sponsor-level-] h6:before {
     }
 }
 .tix-attendee-list li .tix-attendee-name {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 1rem !important;
     line-height: 100%;
@@ -5839,7 +5839,7 @@ div[class^=wcorg-sponsor-level-] h6:before {
     border: none;
 }
 .wcpt-schedule thead th {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
     text-align: center;
@@ -5890,7 +5890,7 @@ div[class^=wcorg-sponsor-level-] h6:before {
             box-shadow: initial;
 }
 .wcpt-schedule tbody tr td.wcpt-session-type-session .wcpt-session-title, .wcpt-schedule tbody tr td.wcpt-session-type-custom .wcpt-session-title {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 1.25rem;
     text-decoration: none;
@@ -5917,7 +5917,7 @@ div[class^=wcorg-sponsor-level-] h6:before {
 }
 .wcpt-schedule tbody tr td.wcpt-session-type-session:before {
     display: inline-block;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 0.875rem;
     color: #262626;
@@ -6075,7 +6075,7 @@ div[class^=wcorg-sponsor-level-] h6:before {
     display: none;
 }
 #speaker-session-names li a {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.75rem;
     font-weight: 700;
     line-height: 110%;
@@ -6089,7 +6089,7 @@ div[class^=wcorg-sponsor-level-] h6:before {
 /*_______ Session single _______*/
 .session-speakers {
     display: inline-block;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 1.25rem;
     margin-right: 0.5rem !important;
@@ -6112,7 +6112,7 @@ div[class^=wcorg-sponsor-level-] h6:before {
     display: none;
 }
 #session-speaker-names li a {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.25rem;
 }
 
@@ -6122,7 +6122,7 @@ div[class^=wcorg-sponsor-level-] h6:before {
 }
 .session-categories-links:before {
     content: "Categoría: ";
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 1rem;
 }
