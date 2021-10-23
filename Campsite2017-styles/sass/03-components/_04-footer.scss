@@ -85,7 +85,8 @@
 					text-decoration: underline;
 					@extend %transition;
 					&:hover{
-						color: $white;
+						color: $color__primary;
+                        text-decoration: none;
 					}
 				}
 				.sub-menu{
