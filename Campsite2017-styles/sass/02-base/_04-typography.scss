@@ -1,7 +1,7 @@
 /*_______ General _______*/
 body{
 	font-family: $font__secondary;
-	@include font-size(1.25);
+	@include font-size(1.125);
     font-weight: 400;
 	line-height: $font__line-height-body;
 }
@@ -9,34 +9,33 @@ body{
 /*_______ Headings _______*/
 @include headings {
 	font-weight: 800;
+    line-height: 1.2;
 	clear: both;
 }
 
 h1{
 	font-family: $font__main;
-	@include font-size(2);
-	line-height: 100%;
+	@include font-size(2.65);
 	margin-top: 0;
 	margin-bottom: 1em;
 	@media (min-width: 350px){
-		@include font-size(2.5);
+		@include font-size(3);
 	}
 	@media (min-width: 480px){
-		@include font-size(3.1);
+		@include font-size(3.8);
 	}
 	@media (min-width: 769px){
-		@include font-size(3.70);
+        @include font-size(4.25);
 	}
 }
 
 h2{
 	font-family: $font__main;
 	@include font-size(1.75);
-	line-height: 100%;
 	margin-top: 0;
 	margin-bottom: .5em;
 	@media (min-width: 769px){
-		@include font-size(2.25);
+		@include font-size(1.875);
 	}
 }
 
@@ -44,7 +43,6 @@ h3{
 	font-family: $font__main;
 	@include font-size(1.5);
     font-weight: 500;
-	line-height: 100%;
 	margin-top: 0;
 	margin-bottom: .5em;
 	@media (min-width: 769px){
@@ -54,48 +52,33 @@ h3{
 
 h4{
 	font-family: $font__main;
-	@include font-size(1.375);
+	@include font-size(1.4);
     font-weight: 700;
-	line-height: 100%;
 	margin-top: 0;
 	margin-bottom: .25em;
-	@media (min-width: 769px){
-		@include font-size(1.75);
-	}
 }
   
 h5{
 	font-family: $font__main;
 	@include font-size(1.25);
     font-weight: 700;
-	line-height: 100%;
 	margin-top: 0;
 	margin-bottom: .25em;
-	@media (min-width: 769px){
-		@include font-size(1.5);
-	}
 }
 
 h6{
 	@include font-size(1.125);
     font-weight: 700;
-	line-height: 100%;
 	margin-top: 0;
 	margin-bottom: .125em;
-	@media (min-width: 769px){
-		@include font-size(1.375);
-	}
 }
 
 
 /*_______ Typography elements _______*/
 p {
-	@include font-size(1.25);
-	line-height: 140%;
+	@include font-size(1.125);
+	line-height: 1.2;
 	margin: 0 0 1em;
-	@media (min-width: 769px){
-		@include font-size(1.375);
-	}
 	a{
 		text-decoration: underline;
 		word-break: break-word;

@@ -743,8 +743,8 @@ figure > * {
 /*_______ General _______*/
 body {
     font-family: "Inter", sans-serif;
-    font-size: 20px;
-    font-size: 1.25rem;
+    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.5;
 }
@@ -752,33 +752,33 @@ body {
 /*_______ Headings _______*/
 h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
+    line-height: 1.2;
     clear: both;
 }
 
 h1 {
     font-family: "Inter", sans-serif;
-    font-size: 32px;
-    font-size: 2rem;
-    line-height: 100%;
+    font-size: 42.4px;
+    font-size: 2.65rem;
     margin-top: 0;
     margin-bottom: 1em;
 }
 @media (min-width: 350px) {
     h1 {
-        font-size: 40px;
-        font-size: 2.5rem;
+        font-size: 48px;
+        font-size: 3rem;
     }
 }
 @media (min-width: 480px) {
     h1 {
-        font-size: 49.6px;
-        font-size: 3.1rem;
+        font-size: 60.8px;
+        font-size: 3.8rem;
     }
 }
 @media (min-width: 769px) {
     h1 {
-        font-size: 59.2px;
-        font-size: 3.7rem;
+        font-size: 68px;
+        font-size: 4.25rem;
     }
 }
 
@@ -786,14 +786,13 @@ h2 {
     font-family: "Inter", sans-serif;
     font-size: 28px;
     font-size: 1.75rem;
-    line-height: 100%;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
 @media (min-width: 769px) {
     h2 {
-        font-size: 36px;
-        font-size: 2.25rem;
+        font-size: 30px;
+        font-size: 1.875rem;
     }
 }
 
@@ -802,7 +801,6 @@ h3 {
     font-size: 24px;
     font-size: 1.5rem;
     font-weight: 500;
-    line-height: 100%;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
@@ -815,18 +813,11 @@ h3 {
 
 h4 {
     font-family: "Inter", sans-serif;
-    font-size: 22px;
-    font-size: 1.375rem;
+    font-size: 22.4px;
+    font-size: 1.4rem;
     font-weight: 700;
-    line-height: 100%;
     margin-top: 0;
     margin-bottom: 0.25em;
-}
-@media (min-width: 769px) {
-    h4 {
-        font-size: 28px;
-        font-size: 1.75rem;
-    }
 }
 
 h5 {
@@ -834,44 +825,24 @@ h5 {
     font-size: 20px;
     font-size: 1.25rem;
     font-weight: 700;
-    line-height: 100%;
     margin-top: 0;
     margin-bottom: 0.25em;
-}
-@media (min-width: 769px) {
-    h5 {
-        font-size: 24px;
-        font-size: 1.5rem;
-    }
 }
 
 h6 {
     font-size: 18px;
     font-size: 1.125rem;
     font-weight: 700;
-    line-height: 100%;
     margin-top: 0;
     margin-bottom: 0.125em;
-}
-@media (min-width: 769px) {
-    h6 {
-        font-size: 22px;
-        font-size: 1.375rem;
-    }
 }
 
 /*_______ Typography elements _______*/
 p {
-    font-size: 20px;
-    font-size: 1.25rem;
-    line-height: 140%;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1.2;
     margin: 0 0 1em;
-}
-@media (min-width: 769px) {
-    p {
-        font-size: 22px;
-        font-size: 1.375rem;
-    }
 }
 p a {
     text-decoration: underline;
